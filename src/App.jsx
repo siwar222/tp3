@@ -25,7 +25,7 @@ export default App*/
 
 
 
-import "./App.css";
+/*import "./App.css";
 import Formulaire from "./formulaire";
 
 function App() {
@@ -38,4 +38,18 @@ function App() {
 }
 
 export default App;
+*/
 
+import React from "react";
+import TodoApp from "./Todo";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <TodoApp />
+    </div>
+  );
+}
+
+export default App;
