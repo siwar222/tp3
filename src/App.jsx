@@ -1,4 +1,4 @@
-import Bienvenue from './Bienvenue';
+/*import Bienvenue from './Bienvenue';
 
 function App() {
   return (
@@ -7,4 +7,19 @@ function App() {
     </div>
   );
 }
+export default App*/
+
+import './App.css'
+import Compteur from './Compteur'
+
+function App() {
+  return (
+    <div>
+      <h1>Mon app React</h1>
+      <Compteur />
+    </div>
+  )
+}
+
 export default App
+
